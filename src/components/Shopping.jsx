@@ -51,6 +51,17 @@ const products =[
   images:[{url:"https://m.media-amazon.com/images/I/81GKnoixdNL._SX522_.jpg"}],
   price:"₹200",
   id:"Aryaman",
+},{
+  name: "LED Bulb",
+  images:[{url:"https://b-cap.eu/wp-content/uploads/b-cap-046135796036-768x768.jpg"}],
+  price:"₹200",
+  id:"Aryaman",
+},
+{
+  name: "Bamboo Cutlery Travel kit",
+  images:[{url:"https://cdn.shopify.com/s/files/1/0512/4823/4660/products/happy_4_1024x10242x0.png?v=1607803142"}],
+  price:"₹200",
+  id:"Aryaman",
 }
 ]
 

@@ -1,6 +1,4 @@
-import React, { useContext } from 'react'
-import { Navigate } from 'react-router-dom';
-import { Context } from '..';
+import React from 'react'
 
 const Home = () => {
   

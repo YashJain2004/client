@@ -1,24 +1,24 @@
 import React from "react";
-import { Link, useNavigate} from "react-router-dom";
+import { Link } from "react-router-dom";
 import ReactStars from 'react-rating-stars-component'
 
-const ProductCard = ({ product , isAuthenticated }) => {
+const ProductCard = ({ product }) => {
   const options = {
-    value: product.ratings,
+    value: 2,
     readOnly: true,
     precision: 0.5,
+    
   };
-  console.log(isAuthenticated);
-  const navigate = useNavigate();
-  const handleBuyNowClick = () => {
+  // const navigate = useNavigate();
+  // const handleBuy= () => {
   
-    if (!isAuthenticated) {
-      navigate("/login");
-    }
-  }
+  //   if (!isAuthenticated) {
+  //     navigate("/login");
+  //   }
+  // }
 
   return (
-    <Link className="productCard" to={"#"}>
+    <Link className="productCard" to={"/login"}>
       <img src={product.images[0].url} alt={product.name} />
       <p>{product.name}</p>
       <div>
@@ -29,7 +29,7 @@ const ProductCard = ({ product , isAuthenticated }) => {
         </span>
       </div>
       <span>{`₹${product.price}`}</span>
-      <button onClick ={handleBuyNowClick} style={{fontStyle:"oblique", border:"1px solid black"}}> Buy Now</button>
+      <button style={{fontStyle:"oblique", border:"1px solid black"}}> Buy Now</button>
     </Link>
   );
 };
