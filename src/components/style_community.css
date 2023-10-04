@@ -1,0 +1,97 @@
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: auto;
+}
+.maintitle{
+    text-align: center;
+}
+.title{
+    
+    color: #e0dfdc;
+    background-color: #333;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+   
+     
+      0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.container {
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 799px;
+    background: linear-gradient(to right, rgb(218, 68, 83), rgb(137, 33, 107));
+    color: white;
+    height: 60vh;
+    margin: auto;
+    overflow-y: auto;
+    margin-bottom: 19px;
+}
+
+
+.message {
+    width: 29%;
+    background: linear-gradient(to right, rgb(51, 51, 51), rgb(221, 24, 24));
+    padding: 23px;
+    margin: 5px 3px;
+    /* border: 3px solid grey; */
+    border-radius: 13px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+.send{
+    display: block;
+    margin: auto;
+    max-width: 985px;
+    width: 100%;
+    text-align: center;
+    margin-top: 6px;
+}
+
+#messageInp{
+    border:none;
+    width: 60%;
+    height: 34px;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(218, 68, 83), rgb(137, 33, 107));
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.btn{
+    border-radius: 5px;
+    color: white;
+    height: 34px;
+
+    background: linear-gradient(to right, rgb(218, 68, 83), rgb(137, 33, 107));
+    border: none;
+}
