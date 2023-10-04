@@ -1,0 +1,210 @@
+
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+// :root{
+//     --green:#0d9979;
+// }
+
+// *{
+//     font-family: 'Open Sans', sans-serif;
+//     margin:0; padding:0;
+//     box-sizing: border-box;
+//     text-transform: capitalize;
+//     text-decoration: none;
+//     transition: all .5s cubic-bezier(.37,1.14,.26,1.24);
+// }
+
+// *::selection{
+//     background:var(--green);
+//     color:#fff;
+// }
+
+// html{
+//     font-size: 62.5%;
+//     overflow-x: hidden;
+// }
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#555;
+    padding:1rem;
+    padding-top: 7rem;
+}
+
+.heading i{
+    color:var(--green);
+    font-size: 2rem;
+}
+
+.home{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url('https://img.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-914.jpg?w=740&t=st=1696243088~exp=1696243688~hmac=2b981a3c2885bb1b885efa598f22b45f213aa9501736c289bc860d336ddb48ba') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    text-align: center;
+    padding:1rem;
+}
+
+.home .content h1{
+    font-size: 7rem;
+    color:var(--green);
+}
+
+.home .content p{
+    font-size: 1.9rem;
+    color:#333;
+    padding:1rem 0;
+    width: 70rem;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex:1 1 40rem;
+    padding:2rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex:1 1 40rem;
+    padding:2rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:var(--green);
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 0;
+  }
+.service{
+  margin-top: 1rem;
+    background:#f0f0f0;
+    min-height: 40vh;
+}
+
+.service .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:0 auto;
+}
+
+.service .box-container .box{
+    flex:1 1 25rem;
+    padding:2rem 1rem;
+    text-align: center;
+    background:#fff;
+    border:.2rem solid var(--green);
+    margin:4rem;
+    cursor: pointer;
+}
+
+.service .box-container .box i{
+    color: var(--green);
+    font-size: 4rem;
+    padding:1rem 0;
+}
+
+.service .box-container .box h3{
+    color: #333;
+    font-size: 2rem;
+}
+
+.service .box-container .box p{
+    color: #666;
+    font-size: 1.2rem;
+    padding:1rem 0;
+}
+
+.service .box-container .box a{
+    color:#333;
+    font-size: 1.4rem;
+}
+
+.service .box-container .box a:hover{
+    color:var(--green);
+}
+
+.service .box-container .box:hover{
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+.footer{
+    background:#333;
+}
+
+.footer .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin:0 auto;
+}
+
+.footer .box-container .box{
+    margin:2rem;
+    flex:1 1 25rem;
+}
+
+.footer .box-container .box .logo{
+    font-size: 3rem;
+    color:var(--green);
+}
+
+.footer .box-container .box p{
+    font-size: 1.3rem;
+    color:#ccc;
+    padding:1rem 0;
+}
+
+.footer .box-container .box .share{
+    text-align: center;
+    font-size: 2rem;
+    color:var(--green);
+}
+
+.footer .box-container .box:nth-child(2) a{
+    text-align: center;
+    font-size: 1.4rem;
+    color:#eee;
+    display: block;
+    padding:.5rem 0;
+}
+
+.footer .box-container .box:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+.footer .credit{
+    text-align: center;
+    color:#fff;
+    font-size: 2rem;
+    width:85%;
+    margin:0 auto;
+    padding:2rem 1rem;
+    border-top: .1rem solid #ccc;
+}
+
+.footer .credit span{
+    color:var(--green);
+}
+

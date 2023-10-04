@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navbar{
+    background: linear-gradient(45deg,white,rgb(98, 98, 216));
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+  
+}
+.heading{
+    left: 45px;
+    top: 5px;
+    font-size: 2.5rem;
+    position: absolute;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    border-radius: 10px;
+    position: absolute;
+    padding:3px;
+    top: 8px;
+    
+}
+article{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        > a {
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 1.5rem;
+            color:whitesmoke;
+            &:hover{
+                color: rgb(251, 228, 228) ;
+                @include myButton;
+                @include styledText;
+            }
+             
+          }
+    .login{
+        @include myButton;
+        @include styledText;
+    }
+}
